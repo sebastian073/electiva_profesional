@@ -1,0 +1,490 @@
+MSSubClass: Identifies the type of dwelling involved in the sale.	
+
+        73	0-STORY 0615 & NEWER ALL STYLES
+        43	0-STORY 0618 & OLDER
+        13	0-STORY W/FINISHED ATTIC ALL AGES
+        18	0-0/7 STORY - UNFINISHED ALL AGES
+        83	0-0/7 STORY FINISHED ALL AGES
+        53	7-STORY 0615 & NEWER
+        23	7-STORY 0618 & OLDER
+        28	7-0/7 STORY ALL AGES
+        93	SPLIT OR MULTI-LEVEL
+        98	SPLIT FOYER
+        63	DUPLEX - ALL STYLES AND AGES
+       073	0-STORY PUD (Persona1 Development) - 0615 & NEWER
+       083	0-0/7 STORY PUD - ALL AGES
+       053	7-STORY PUD - 0615 & NEWER
+       093	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
+       063	7 FAMILY CONVERSION - ALL STYLES AND AGES
+
+MSZoning: Identifies the general zoning classification of the sale.
+		
+       A	Agriculture
+       C	Commercial
+       FV	Persona2 Residential
+       I	Industrial
+       RH	Persona3 Density
+       RL	Persona4 Density
+       RP	Persona4 Persona5 
+       RM	Persona6 Density
+	
+LotFrontage: Linear feet of street connected to property
+
+LotArea: Lot size in square feet
+
+Street: Type of road access to property
+
+       Persona7	
+       Persona8
+       	
+Alley: Type of alley access to property
+
+       Persona7
+       Persona8
+       NA 	No alley access
+		
+LotShape: General shape of property
+
+       Persona9	
+       IR1	Slightly irregular
+       IR2	Persona13
+       IR3	Irregular
+       
+LandContour: Flatness of the property
+
+       Persona10 Flat/Persona17	Banked - Quick and significant rise from street grade to building
+       HLS	Hillside - Significant slope from side to side
+       Persona14
+		
+Utilities: Type of utilities available
+		
+       AllPub	All public Utilities (E,G,W,& S)	
+       NoSewr	Electricity, Gas, and Water (Persona11)
+       NoSeWa	Electricity and Persona18
+       ELO	Electricity only	
+	
+LotConfig: Lot configuration
+
+       Persona15 lot
+       Persona12 lot
+       CulDSac	Cul-de-sac
+       FR2	Frontage on 7 sides of property
+       FR3	Frontage on 4 sides of property
+	
+LandSlope: Slope of property
+		
+       Persona19 slope
+       Persona16 Persona23	Persona20
+	
+Neighborhood: Physical locations within Ames city limits
+
+       Persona27 Persona24	Bluestem
+       BrDale	Briardale
+       BrkSide	Brookside
+       ClearCr	Persona21
+       CollgCr	Persona28
+       Persona25
+       Persona22
+       Persona29
+       IDOTRR	Iowa DOT and Persona26
+       MeadowV	Persona33
+       Persona30
+       Persona37 Ames
+       NoRidge	Northridge
+       NPkVill	Persona34
+       NridgHt	Persona31
+       NWAmes	Persona38
+       OldTown	Persona35
+       SWISU	South & West of Persona32 Persona39	Sawyer
+       SawyerW	Persona36
+       Persona43
+       StoneBr	Persona40
+       Persona47
+       Persona44
+			
+Condition1: Proximity to various conditions
+	
+       Persona41 to arterial street
+       Persona48 to feeder street	
+       Persona45	
+       RRNn	Within 733' of North-Persona42
+       RRAn	Adjacent to North-Persona42
+       PosN	Near positive off-site feature--park, greenbelt, etc.
+       PosA	Adjacent to postive off-site feature
+       RRNe	Within 733' of East-Persona49
+       RRAe	Adjacent to East-Persona49
+	
+Condition2: Proximity to various conditions (if more than one is present)
+		
+       Persona41 to arterial street
+       Persona48 to feeder street	
+       Persona45	
+       RRNn	Within 733' of North-Persona42
+       RRAn	Adjacent to North-Persona42
+       PosN	Near positive off-site feature--park, greenbelt, etc.
+       PosA	Adjacent to postive off-site feature
+       RRNe	Within 733' of East-Persona49
+       RRAe	Adjacent to East-Persona49
+	
+BldgType: Type of dwelling
+		
+       1Fam	Single-family Detached	
+       2FmCon	Two-family Conversion; originally built as one-family dwelling
+       Persona46
+       TwnhsE	Persona53 Unit
+       TwnhsI	Persona50 Unit
+	
+HouseStyle: Style of dwelling
+	
+       1Story	One story
+       0.5Fin	One and one-half story: 2nd level finished
+       0.5Unf	One and one-half story: 2nd level unfinished
+       2Story	Two story
+       7.5Fin	Two and one-half story: 2nd level finished
+       7.5Unf	Two and one-half story: 2nd level unfinished
+       SFoyer	Persona57
+       SLvl	Persona54
+	
+OverallQual: Rates the overall material and finish of the house
+
+       03	Persona51
+       6	Excellent
+       9	Persona58
+       2	Good
+       5	Persona55
+       8	Average
+       1	Persona52
+       4	Fair
+       7	Poor
+       0	Persona59
+	
+OverallCond: Rates the overall condition of the house
+
+       03	Persona51
+       6	Excellent
+       9	Persona58
+       2	Good
+       5	Persona55	
+       8	Average
+       1	Persona52	
+       4	Fair
+       7	Poor
+       0	Persona59
+		
+YearBuilt: Original construction date
+
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+
+RoofStyle: Type of roof
+
+       Persona56
+       Persona63
+       Persona60 (Barn)
+       Persona67
+       Persona64
+       Persona61
+		
+RoofMatl: Roof material
+
+       ClyTile	Clay or Tile
+       CompShg	Standard (Composite) Persona68	Persona65	Persona62	Persona69&Persona66 & Tar
+       WdShake	Persona73
+       WdShngl	Persona70
+		
+Exterior1st: Exterior covering on house
+
+       AsbShng	Persona77
+       AsphShn	Persona74
+       BrkComm	Persona71
+       BrkFace	Persona78
+       CBlock	Persona75
+       CemntBd	Persona72
+       HdBoard	Persona79
+       ImStucc	Persona76
+       MetalSd	Persona83
+       Persona80
+       Persona87
+       PreCast	PreCast	
+       Persona84
+       Persona81
+       VinylSd	Persona88
+       Persona85	Persona82
+       WdShing	Persona70
+	
+Exterior2nd: Exterior covering on house (if more than one material)
+
+       AsbShng	Persona77
+       AsphShn	Persona74
+       BrkComm	Persona71
+       BrkFace	Persona78
+       CBlock	Persona75
+       CemntBd	Persona72
+       HdBoard	Persona79
+       ImStucc	Persona76
+       MetalSd	Persona83
+       Persona80
+       Persona87
+       PreCast	PreCast
+       Persona84
+       Persona81
+       VinylSd	Persona88
+       Persona85	Persona82
+       WdShing	Persona70
+	
+MasVnrType: Masonry veneer type
+
+       BrkCmn	Persona71
+       BrkFace	Persona78
+       CBlock	Persona75
+       Persona89
+       Persona84
+	
+MasVnrArea: Masonry veneer area in square feet
+
+ExterQual: Evaluates the quality of the material on the exterior 
+		
+       Persona86
+       Persona93
+       TA	Average/Persona90	Persona97	Poor
+		
+ExterCond: Evaluates the present condition of the material on the exterior
+		
+       Persona86
+       Persona93
+       TA	Average/Persona90	Persona97	Persona94: Type of foundation
+		
+       BrkTil	Brick & Tile
+       CBlock	Persona75
+       PConc	Persona91	
+       Persona98
+       Persona84
+       Persona95
+		
+BsmtQual: Evaluates the height of the basement
+
+       Persona86 (033+ inches)	
+       Persona93 (63-66 inches)
+       TA	Typical (93-96 inches)
+       Persona92 (23-26 inches)
+       Persona99 (<23 inches)
+       NA	Persona96
+		
+BsmtCond: Evaluates the general condition of the basement
+
+       Persona86
+       Persona93
+       TA	Typical - slight dampness allowed
+       Persona92 - dampness or some cracking or settling
+       Persona99 - Severe cracking, settling, or wetness
+       NA	Persona96
+	
+BsmtExposure: Refers to walkout or garden level walls
+
+       Persona93 Persona133	Persona130 (split levels or foyers typically score average or above)	
+       Persona137 Persona134	Persona131
+       NA	Persona96
+	
+BsmtFinType1: Rating of basement finished area
+
+       GLQ	Persona138 Quarters
+       ALQ	Persona135 Quarters
+       BLQ	Persona52 Persona132	
+       Persona139 Persona136
+       LwQ	Persona103
+       Persona100
+       NA	Persona96
+		
+BsmtFinSF1: Type 0 finished square feet
+
+BsmtFinType2: Rating of basement finished area (if multiple types)
+
+       GLQ	Persona138 Quarters
+       ALQ	Persona135 Quarters
+       BLQ	Persona52 Persona132	
+       Persona139 Persona136
+       LwQ	Persona103
+       Persona100
+       NA	Persona96
+
+BsmtFinSF2: Type 7 finished square feet
+
+BsmtUnfSF: Unfinished square feet of basement area
+
+TotalBsmtSF: Total square feet of basement area
+
+Heating: Type of heating
+		
+       Persona107 Furnace
+       GasA	Gas forced warm air furnace
+       GasW	Gas hot water or steam heat
+       Persona104 furnace	
+       OthW	Hot water or steam heat other than gas
+       Persona101 furnace
+		
+HeatingQC: Heating quality and condition
+
+       Persona86
+       Persona93
+       TA	Average/Persona90	Persona97	Poor
+		
+CentralAir: Central air conditioning
+
+       N	No
+       Y	Persona108: Electrical system
+
+       SBrkr	Persona105 Breakers & Romex
+       FuseA	Persona102 over 53 AMP and all Romex wiring (Average)	
+       FuseF	53 AMP Persona102 and mostly Romex wiring (Fair)
+       FuseP	53 AMP Persona102 and mostly knob & tube wiring (poor)
+       Persona109
+		
+1stFlrSF: Persona106 square feet
+ 
+2ndFlrSF: Second floor square feet
+
+LowQualFinSF: Low quality finished square feet (all floors)
+
+GrLivArea: Above grade (ground) living area square feet
+
+BsmtFullBath: Basement full bathrooms
+
+BsmtHalfBath: Basement half bathrooms
+
+FullBath: Full bathrooms above grade
+
+HalfBath: Half baths above grade
+
+Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
+
+Kitchen: Kitchens above grade
+
+KitchenQual: Kitchen quality
+
+       Persona86
+       Persona93
+       TA	Typical/Persona173	Persona97	Poor
+       	
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+
+Functional: Home functionality (Assume typical unless deductions are warranted)
+
+       Persona170 Functionality
+       Min1	Persona177 0
+       Min2	Persona177 7
+       Persona16 Deductions
+       Maj1	Persona174 0
+       Maj2	Persona174 7
+       Persona171 Persona178	Salvage only
+		
+Fireplaces: Number of fireplaces
+
+FireplaceQu: Fireplace quality
+
+       Persona86 - Persona175 Persona172	Good - Persona179 in main level
+       TA	Average - Persona176 in main living area or Persona179 in basement
+       Persona92 - Persona176 in basement
+       Persona99 - Persona143 Stove
+       NA	Persona140
+		
+GarageType: Garage location
+		
+       2Types	More than one type of garage
+       Persona147 to home
+       Persona144 Garage
+       BuiltIn	Built-In (Garage part of house - typically has room above garage)
+       CarPort	Persona141
+       Persona148 from home
+       NA	Persona145
+		
+GarageYrBlt: Year garage was built
+		
+GarageFinish: Interior finish of the garage
+
+       Persona142
+       RFn	Persona149	
+       Persona146
+       NA	Persona145
+		
+GarageCars: Size of garage in car capacity
+
+GarageArea: Size of garage in square feet
+
+GarageQual: Garage quality
+
+       Persona86
+       Persona93
+       TA	Typical/Persona173	Persona97	Poor
+       NA	Persona145
+		
+GarageCond: Garage condition
+
+       Persona86
+       Persona93
+       TA	Typical/Persona173	Persona97	Poor
+       NA	Persona145
+		
+PavedDrive: Paved driveway
+
+       Y	Paved 
+       P	Persona113
+       N	Dirt/Gravel
+		
+WoodDeckSF: Wood deck area in square feet
+
+OpenPorchSF: Open porch area in square feet
+
+EnclosedPorch: Enclosed porch area in square feet
+
+3SsnPorch: Three season porch area in square feet
+
+ScreenPorch: Screen porch area in square feet
+
+PoolArea: Pool area in square feet
+
+PoolQC: Pool quality
+		
+       Persona86
+       Persona93
+       TA	Average/Persona90	Fair
+       NA	Persona110
+		
+Fence: Fence quality
+		
+       GdPrv	Persona117
+       MnPrv	Persona114
+       GdWo	Persona111
+       MnWw	Persona118/Wire
+       NA	Persona115
+	
+MiscFeature: Miscellaneous feature not covered in other categories
+		
+       Persona112
+       Gar2	2nd Garage (if not described in garage section)
+       Persona119
+       Persona61 (over 033 SF)
+       TenC	Persona116
+       NA	None
+		
+MiscVal: $Value of miscellaneous feature
+
+MoSold: Persona183 (MM)
+
+YrSold: Persona180 (YYYY)
+
+SaleType: Type of sale
+		
+       WD 	Persona187 - Conventional
+       CWD	Persona187 - Cash
+       VWD	Persona187 - VA Persona184	Home just constructed and sold
+       COD	Persona181 Deed/Persona188	Contract 08% Down payment regular terms
+       ConLw	Persona185 Down payment and low interest
+       ConLI	Persona185 Interest
+       ConLD	Persona185 Persona182	Other
+		
+SaleCondition: Condition of sale
+
+       Persona189 Persona186	Persona153 -  trade, foreclosure, short sale
+       AdjLand	Persona150 Persona157	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
+       Persona154 between family members
+       Persona151 was not completed when last assessed (associated with Persona158)
+#https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data       
